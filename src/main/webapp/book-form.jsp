@@ -50,7 +50,7 @@
             <tr>
                 <th>Resumo do Livro: </th>
                 <td>
-                    <input type="textarea" name="resume" value="<c:out value='${book.resume}'/>" />
+                    <input type="textarea" name="resume" size="60" value="<c:out value='${book.resume}'/>" />
                 </td>
             </tr>
             <tr>
@@ -61,7 +61,7 @@
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <input type="submit" value="Save" />
+                    <input type="submit" value="Salvar" />
                 </td>
             </tr>
         </table>

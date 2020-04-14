@@ -27,7 +27,7 @@
         <c:forEach var="book" items="${listBook}">
             <tr>
                 <td><c:out value="${book.id}" /></td>
-                <td><c:out value="${book.title}" /></td>
+                <td title="${book.resume}"><c:out value="${book.title}" /></td>
                 <td><c:out value="${book.author}" /></td>
                 <td><c:out value="${book.releaseYear}" /></td>
                 <td>
